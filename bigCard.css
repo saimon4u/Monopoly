@@ -1,0 +1,46 @@
+.start_card {
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+    filter: blur(.1px);
+    opacity: .8;
+    accent-color: #47e0d8;
+    background-color: #18322f;
+    background-image: linear-gradient(to bottom right, #0f1d1d, #2a5853);
+}
+.card_border{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.img_container img{
+    width: 30px;
+    height: 30px;
+}
+.start{
+    font-size: 30px;
+    color: green;
+    font-weight: 900;
+}
+.jail_box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.jail_img img{
+    height: 70px;
+    width: 120px;
+}
+.free{
+    font-size: 17px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}

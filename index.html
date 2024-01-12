@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flag.css">
+    <link rel="stylesheet" href="priceItem.css">
+</head>
+
+<body background="assets/back">
+    <div class="main">
+        <div class="nav">
+            <img class="nav_img soundImg" src="assets/sound.png" alt="Volume">
+            <div class="nav_others">
+                <div class="store">
+                    <img class="nav_img" src="assets/shop.png" alt="">
+                    <p>Store</p>
+                </div>
+                <div class="login">
+                    <img class="nav_img" src="assets/login.png" alt="">
+                    <p>Login</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body_element">
+            <div class="dice">
+                <img src="assets/dice.png" alt="">
+            </div>
+            <div class="app_name">
+                <h1>Monopoly</h1>
+                <p>Rule the economy</p>
+            </div>
+            <div class="nickname">
+                <input type="text" placeholder="Your nickname...">
+                <img src="assets/shuffle.png" alt="shuffle">
+            </div>
+            <div class="play">
+                <button class="btn_play"><img class="body_img" src="assets/play.png" alt="">
+                    <p>Play</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="btn_room"><img class="body_img" src="assets/all_room.png" alt="">
+                    <p>All rooms</p>
+                </button>
+                <button class="btn_game"><img class="body_img" src="assets/key.png" alt="">
+                    <p>Create a private game</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="instruction">
+        <div class="left">
+            <div class="left_top">
+                <div class="heading"><h1>How to play</h1></div>
+                <div class="second">
+                    <img src="assets/money.png" alt="">
+                    <p>All players start with $1500.</p>
+                </div>
+                <div class="third">
+                    <img src="assets/shuffle.png" alt="">
+                    <div class="Values">
+                        <p class="one">On your turn, roll the dice to move forward.</p>
+                        <p class="two">Get doubles? You'll have another turn!</p>
+                    </div>
+                </div>
+                <div class="fourth">
+                    <img src="assets/apartment.png" alt="">
+                    <div class="value">
+                        <p class="one">Purchase valueable properties and grow your financial empire.</p>
+                        <p class="two">Once you own a property, other players will pay rent when they land on it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="left_bottom">
+                <div class="text">
+                    <p class="one">Own a full property set?</br>Start building houses and hotels</p>
+                    <p class="two">Players will pay you a large amount of money when they land on properties with building.</br>Build hotels to maximize income and make other players lose their money.</p>
+                </div>
+                <div class="houses">
+                    <div class="card house_card">
+                        <div class="box">
+                            <div class="values">
+                                <div class="home house_home">
+                                    <img src="assets/home.png" alt="">
+                                    <p> x 3</p>
+                                </div>
+                                <div class="name house_name">Rio</div>
+                            </div>
+                        </div>
+                        <div class="flag_container">
+                            <div class="flag">
+                                <svg viewBox="0 0 512 512" xml:space="preserve">
+                                    <path d="M0 0h512v512H0z" style="fill: rgb(109, 165, 68);"></path>
+                                    <path d="M256 114.527 448 256 256 397.473 64 256z" style="fill: rgb(255, 218, 68);"></path>
+                                    <circle cx="256" cy="256" r="80.84" style="fill: rgb(240, 240, 240);"></circle>
+                                    <path
+                                        d="M215.579 250.948c-14.058 0-27.625 2.138-40.395 6.105.565 44.161 36.521 79.79 80.816 79.79 27.39 0 51.58-13.634 66.203-34.471-25.018-31.32-63.515-51.424-106.624-51.424zM335.343 271.488A81.137 81.137 0 0 0 336.842 256c0-44.648-36.194-80.843-80.843-80.843-33.314 0-61.913 20.156-74.29 48.935a166.852 166.852 0 0 1 33.869-3.46c46.957 0 89.433 19.517 119.765 50.856z"
+                                        style="fill: rgb(0, 82, 180);"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card house_card">
+                        <div class="box">
+                            <div class="values">
+                                <div class="home house_home">
+                                    <img src="assets/home.png" alt="">
+                                    <p> x 3</p>
+                                </div>
+                                <div class="name house_name">Rio</div>
+                            </div>
+                        </div>
+                        <div class="flag_container">
+                            <div class="flag">
+                                <svg viewBox="0 0 512 512" xml:space="preserve">
+                                    <path d="M0 0h512v512H0z" style="fill: rgb(109, 165, 68);"></path>
+                                    <path d="M256 114.527 448 256 256 397.473 64 256z" style="fill: rgb(255, 218, 68);"></path>
+                                    <circle cx="256" cy="256" r="80.84" style="fill: rgb(240, 240, 240);"></circle>
+                                    <path
+                                        d="M215.579 250.948c-14.058 0-27.625 2.138-40.395 6.105.565 44.161 36.521 79.79 80.816 79.79 27.39 0 51.58-13.634 66.203-34.471-25.018-31.32-63.515-51.424-106.624-51.424zM335.343 271.488A81.137 81.137 0 0 0 336.842 256c0-44.648-36.194-80.843-80.843-80.843-33.314 0-61.913 20.156-74.29 48.935a166.852 166.852 0 0 1 33.869-3.46c46.957 0 89.433 19.517 119.765 50.856z"
+                                        style="fill: rgb(0, 82, 180);"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card house_card">
+                        <div class="box">
+                            <div class="values">
+                                <div class="home house_home">
+                                    <img src="assets/home.png" alt="">
+                                    <p> x 3</p>
+                                </div>
+                                <div class="name house_name">Rio</div>
+                            </div>
+                        </div>
+                        <div class="flag_container">
+                            <div class="flag">
+                                <svg viewBox="0 0 512 512" xml:space="preserve">
+                                    <path d="M0 0h512v512H0z" style="fill: rgb(109, 165, 68);"></path>
+                                    <path d="M256 114.527 448 256 256 397.473 64 256z" style="fill: rgb(255, 218, 68);"></path>
+                                    <circle cx="256" cy="256" r="80.84" style="fill: rgb(240, 240, 240);"></circle>
+                                    <path
+                                        d="M215.579 250.948c-14.058 0-27.625 2.138-40.395 6.105.565 44.161 36.521 79.79 80.816 79.79 27.39 0 51.58-13.634 66.203-34.471-25.018-31.32-63.515-51.424-106.624-51.424zM335.343 271.488A81.137 81.137 0 0 0 336.842 256c0-44.648-36.194-80.843-80.843-80.843-33.314 0-61.913 20.156-74.29 48.935a166.852 166.852 0 0 1 33.869-3.46c46.957 0 89.433 19.517 119.765 50.856z"
+                                        style="fill: rgb(0, 82, 180);"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="bottom">
+                <img src="assets/flag.png" alt="">
+                <p>Be rich. Get richer. Do not bankrupt.</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="show_places">
+                <div class="card">
+                    <div class="box">
+                        <div class="values">
+                            <div class="home">
+                                
+                            </div>
+                            <div class="name">Rio</div>
+                        </div>
+                    </div>
+                    <div class="flag_container">
+                        <div class="flag">
+                            <svg viewBox="0 0 512 512" xml:space="preserve">
+                                <path d="M0 0h512v512H0z" style="fill: rgb(109, 165, 68);"></path>
+                                <path d="M256 114.527 448 256 256 397.473 64 256z" style="fill: rgb(255, 218, 68);"></path>
+                                <circle cx="256" cy="256" r="80.84" style="fill: rgb(240, 240, 240);"></circle>
+                                <path
+                                    d="M215.579 250.948c-14.058 0-27.625 2.138-40.395 6.105.565 44.161 36.521 79.79 80.816 79.79 27.39 0 51.58-13.634 66.203-34.471-25.018-31.32-63.515-51.424-106.624-51.424zM335.343 271.488A81.137 81.137 0 0 0 336.842 256c0-44.648-36.194-80.843-80.843-80.843-33.314 0-61.913 20.156-74.29 48.935a166.852 166.852 0 0 1 33.869-3.46c46.957 0 89.433 19.517 119.765 50.856z"
+                                    style="fill: rgb(0, 82, 180);"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_middle_card">
+                    <div class="box">
+                        <div class="values">
+                            <div class="home right_middle_home">
+                                
+                            </div>
+                            <div class="name">Dhaka</div>
+                        </div>
+                    </div>
+                    <div class="flag_container">
+                        <div class="flag">
+                            <!-- <svg viewBox="0 0 512 512" xml:space="preserve">
+                                <path d="M0 0h512v512H0z" style="fill: rgb(109, 165, 68);"></path>
+                                <path d="M256 114.527 448 256 256 397.473 64 256z" style="fill: rgb(255, 218, 68);"></path>
+                                <circle cx="256" cy="256" r="80.84" style="fill: rgb(240, 240, 240);"></circle>
+                                <path
+                                    d="M215.579 250.948c-14.058 0-27.625 2.138-40.395 6.105.565 44.161 36.521 79.79 80.816 79.79 27.39 0 51.58-13.634 66.203-34.471-25.018-31.32-63.515-51.424-106.624-51.424zM335.343 271.488A81.137 81.137 0 0 0 336.842 256c0-44.648-36.194-80.843-80.843-80.843-33.314 0-61.913 20.156-74.29 48.935a166.852 166.852 0 0 1 33.869-3.46c46.957 0 89.433 19.517 119.765 50.856z"
+                                    style="fill: rgb(0, 82, 180);"></path>
+                            </svg> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" xml:space="preserve">
+                                <!-- Green background -->
+                                <rect width="1200" height="1200" style="fill: #006a4e;" />
+                            
+                                <!-- Red circle in the center -->
+                                <circle cx="620" cy="600" r="300" style="fill: #e70010;" />
+                            </svg>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card right_right_card">
+                    <div class="box">
+                        <div class="values">
+                            <div class="home">
+                                
+                            </div>
+                            <div class="name">Sao Paulo</div>
+                        </div>
+                    </div>
+                    <div class="flag_container">
+                        <div class="flag">
+                            <svg viewBox="0 0 512 512" xml:space="preserve">
+                                <path d="M0 0h512v512H0z" style="fill: rgb(109, 165, 68);"></path>
+                                <path d="M256 114.527 448 256 256 397.473 64 256z" style="fill: rgb(255, 218, 68);"></path>
+                                <circle cx="256" cy="256" r="80.84" style="fill: rgb(240, 240, 240);"></circle>
+                                <path
+                                    d="M215.579 250.948c-14.058 0-27.625 2.138-40.395 6.105.565 44.161 36.521 79.79 80.816 79.79 27.39 0 51.58-13.634 66.203-34.471-25.018-31.32-63.515-51.424-106.624-51.424zM335.343 271.488A81.137 81.137 0 0 0 336.842 256c0-44.648-36.194-80.843-80.843-80.843-33.314 0-61.913 20.156-74.29 48.935a166.852 166.852 0 0 1 33.869-3.46c46.957 0 89.433 19.517 119.765 50.856z"
+                                    style="fill: rgb(0, 82, 180);"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="show_card">
+                <div class="container">
+                    <div class="box_card">
+                        <div class="place">
+                            <h1>Dhaka</h1>
+                        </div>
+                        <div class="value_container">
+                            <div class="value_house">
+                                <p><u>when</u></p>
+                                <p><u>get</u></p>
+                            </div>
+                            <div class="value_house">
+                                <p>with rent</p>
+                                <p>$6</p>
+                            </div>
+                            <div class="value_house">
+                                <p>with one house</p>
+                                <p>$30</p>
+                            </div>
+                            <div class="value_house">
+                                <p>with two house</p>
+                                <p>$90</p>
+                            </div>
+                            <div class="value_house">
+                                <p>with three house</p>
+                                <p>$270</p>
+                            </div>
+                            <div class="value_house">
+                                <p>with four house</p>
+                                <p>$400</p>
+                            </div>
+                            <div class="value_house">
+                                <p>with a hotel</p>
+                                <p>$550</p>
+                            </div>
+                        </div>
+                        <div class="home_creation">
+                            <div class="first">
+                                <div class="create">
+                                    <img src="assets/upload.png" alt="">
+                                </div>
+                                <div class="destroy">
+                                    <img src="assets/downloads.png" alt="">
+                                </div>
+                            </div>
+                            <div class="delete">
+                                <img src="assets/delete.png" alt="">
+                            </div>
+                        </div>
+                        <div class="owner">
+                            <p>owner</p>
+                            <img src="assets/piece.png" alt="">
+                            <p>Saimon</p>
+                        </div>
+                        <div class="prices">
+                            <div class="unit_price">
+                                <p>Price</p>
+                                <p>$ 100</p>
+                            </div>
+                            <div class="unit_price">
+                                <img src="assets/home.png" alt="">
+                                <p>$ 50</p>
+                            </div>
+                            <div class="unit_price">
+                                <img src="assets/apartment_black.png" alt="">
+                                <p>$ 50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_div">
+       <div class="footer">
+        <p>More Information</p>
+        <p>Blog</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy</p>
+        <p>Cookies</p>
+        <p>Play Games</p>
+        <div class="links">
+            <a href="www.discord.com" target="_blank"><img src="assets/discord.png" alt=""></a>
+            <a href="www.facebook.com/SaimonBhuiyan4U" target="_blank"><img src="assets/facebook.png" alt=""></a>
+        </div>
+       </div>
+       <div class="credit"> © Saimon</div>
+    </div>
+</body>
+
+</html>

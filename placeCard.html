@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .start_card {
+            height: 130px;
+            width: 130px;
+            border-radius: 5px;
+            filter: blur(.1px);
+            opacity: .8;
+            margin-top: 50px;
+            margin-left: 50px;
+            accent-color: #6647e0;
+            background-color: #130f1d;
+            background-image: linear-gradient(to bottom right, #130f1d, #1a0f1d);
+        }
+        .card_border{
+            height: inherit;
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+        .img_container img{
+            width: 30px;
+            height: 30px;
+        }
+        .start{
+            font-size: 30px;
+            color: green;
+            font-weight: 900;
+        }
+        .jail_box{
+            height: inherit;
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .jail_img img{
+            height: 70px;
+            width: 120px;
+        }
+        .free{
+            font-size: 17px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="start_card">
+        <div class="card_border">
+            <div class="start">START</div>
+            <div class="img_container">
+                <img src="assets/start.png" alt="">
+                <img src="assets/start.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="jail_card start_card">
+        <div class="jail_box">
+            <div class="free">Passing by</div>
+            <div class="jail_img">
+                <img src="assets/jail.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
